@@ -1,0 +1,53 @@
+{
+    "name": "BroadcastBot",
+    "description": "A Bot To Send Messages To Your Members",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "broadcast",
+      "best",
+      "indian",
+      "pyrogram",
+      "search",
+      "index",
+    ],
+    "repository": "https://github.com/EvamariaTG/EvaMaria",
+    "logo":
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "ADMINS": {
+            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "required": true
+        },
+        "PICS": {
+            "description": "Add some telegraph link of pictures .",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "required": true
+        
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
