@@ -12,10 +12,10 @@
       "index",
     ],
     "repository": "https://github.com/EvamariaTG/EvaMaria",
-    "logo":
+    "logo": "https://te.legra.ph/file/996e2c040dff56188ab7d.jpg"
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "Your bot token from @BotFather.",
             "required": true
         },
         "API_ID": {
