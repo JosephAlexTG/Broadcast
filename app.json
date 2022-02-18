@@ -13,6 +13,7 @@
     ],
     "repository": "https://github.com/EvamariaTG/EvaMaria",
     "logo": "https://te.legra.ph/file/996e2c040dff56188ab7d.jpg"
+    },
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token from @BotFather.",
@@ -40,9 +41,10 @@
         }
     },
     "addons": [],
-    "buildpacks": [{
+    "buildpacks": [
+       {
         "url": "heroku/python"
-              }
+       }
     ],
     "formation": {
         "worker": {
@@ -51,3 +53,4 @@
         }
     }
 }
+
