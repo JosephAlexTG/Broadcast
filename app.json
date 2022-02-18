@@ -1,7 +1,7 @@
+
 {
     "name": "BroadcastBot",
     "description": "A Bot To Send Messages To Your Members",
-    "stack": "container",
     "keywords": [
       "telegram",
       "broadcast",
@@ -9,7 +9,7 @@
       "indian",
       "pyrogram",
       "search",
-      "index",
+      "index"
     ],
     "repository": "https://github.com/EvamariaTG/EvaMaria",
     "logo": "https://te.legra.ph/file/996e2c040dff56188ab7d.jpg"
@@ -37,13 +37,13 @@
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true
-        
         }
     },
     "addons": [],
     "buildpacks": [{
         "url": "heroku/python"
-    }],
+              }
+    ],
     "formation": {
         "worker": {
             "quantity": 1,
